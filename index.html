@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade JS DOM</title>
+</head>
+<body>
+ <br> <h1>Botão de incrementar e de decrementar numeros: </h1>
+  <br>
+  <h2>Clique para Somar ou Diminuir :</h2>
+  <br>
+  <button style="margin-left: 130px; width: 200px; height: 50px;" id="diminui">Decrementa</button>
+  <button style="margin-left: 130px; width: 200px; height: 50px;" id="soma">Incrementa</button>
+  <p>Resultado:</p><input id="resultado" type="number"  min="0";  style="text-align: center; width: 100px; height: 30px;">
+  <br>
+<br><br>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <h1>Digitar Texto e apertar enter para coloca-lo em um paragrafo:</h1>
+  <br>
+  <h2>Digite um Texto: <input id="texto"  type="text"></h2>
+  <h3 >Texto Digitado:</h3>
+  <p id="digitado"></p>
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ <br>
+ <h1>Digitar um texto e contar em tempo real os caracteres sem contar os espaços:</h1>
+ <br>
+<h2>Digite um Texto: <input id="texto1"  type="text"></h2>
+<h3>Numero de Caracteres:<input id="carac" type="number"  style="text-align: center; width: 100px; height: 30px;"></h3>
+  <br><br>
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <h1>Usuario escolhe lista ordenada ou desordenada e adiciona um item a lista desejada:</h1>
+ <br>
+ <h2>Escolha o tipo de lista:</h2>
+  <select name="Tipo Lista" id="Listas">
+    <option value="Esc">Escolha uma Lista:</option>
+    <option value="ol">Lista Ordenada</option>
+    <option value="ul">Lista Desordenada</option>
+  </select>
+  <br>
+<h3>Digite um item:</h3>
+  <input type="text" id="itemTexto" placeholder="Novo item">
+  <button id="adicionar">Adicionar</button>
+<br>
+  <h3>Resultado:</h3>
+  <div id="listapronta"></div>
+  <br>
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <h1>Botão que limpa todos os campos anteriores: </h1>
+  <br>
+  <button style="background-color: red; color: yellow; width: 300px; height: 70px;" id="Limpar">Apagar Tudo</button>
+
+ <script src="script.js"> </script>
+</body> 
+</html>
